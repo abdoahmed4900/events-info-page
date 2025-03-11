@@ -1,0 +1,153 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(244, 246, 249, 255);
+}
+
+#grid-box {
+    display: grid;
+}
+
+header p,
+header h1 {
+    margin: inherit;
+    padding: inherit;
+}
+
+header h1 {
+    font-size: 4vmin;
+}
+
+header p {
+    font-size: 3vmin;
+}
+
+header {
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-content: space-evenly;
+    height: 20%;
+    background-color: #4cae51;
+}
+
+nav {
+    background-color: #353a41;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: solid;
+    margin-right: 3%;
+    padding: 2.5%;
+    font-size: 3vmin;
+}
+
+nav a:hover {
+    background-color: #4cae51;
+}
+
+.about-the-event {
+    background-color: rgb(255, 254, 254);
+    box-shadow: 0 0 3px 0px;
+    border-radius: 2px;
+    padding: 25px 10px 5px;
+    margin: 3%;
+    height: auto;
+}
+
+h2 {
+    color: #278dfd;
+    margin: 0 0 0 0;
+    font-size: 3vmin;
+}
+
+#about-the-event {
+    width: auto;
+    height: auto;
+}
+
+table {
+    overflow-x: auto;
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1% 0 2% 0;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 2vmin;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.speaker-name {
+    color: #278dfd;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2vmin;
+}
+
+#meet-the-speakers {
+    padding-bottom: 15px;
+    height: auto;
+    font-size: 2vmin;
+}
+
+form {
+    padding: 0px 0 0 90px;
+}
+
+label {
+    display: block;
+    margin: 30px 0px 30px;
+    font-size: 3vmin;
+}
+
+#contact-us {
+    padding: 0 0 2% 20%;
+}
+
+input {
+    width: 75%;
+    line-height: 3;
+    font-size: 2vmin;
+}
+
+textarea {
+    resize: vertical;
+    width: 75%;
+    font-size: 2vmin;
+    height: fit-content;
+}
+
+#events-section {
+    width: auto;
+    overflow-x: auto;
+}
+
+button {
+    margin-top: 3%;
+    width: 76.5%;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    font-size: 3vmin;
+    font-weight: 500;
+    background-color: #278dfd;
+}
