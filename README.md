@@ -1,5 +1,4 @@
-this is a landing page using front-end technologies html and css to show details of an event held for 
-programming inspired by this design : https://www.geeksforgeeks.org/design-an-event-webpage-using-html-css/
+this is a landing page using front-end technologies html and css to show details of an event held for programming inspired by this design : https://www.geeksforgeeks.org/design-an-event-webpage-using-html-css/
 
 and here is demo :
 
